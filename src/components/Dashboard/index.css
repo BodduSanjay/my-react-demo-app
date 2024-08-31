@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dashboard-section {
+  flex: 1;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
